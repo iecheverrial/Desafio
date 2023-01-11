@@ -1,0 +1,243 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+/*  Diseño primera seccion */
+.Titulo1 {
+    background-color: rgb(33, 111, 177);
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    height: 70px;
+}
+.Titulo1 h1{
+    text-shadow: 10px 5px 5px black;
+    align-self: center;
+}
+.LineaSombra{
+    border-top: 1px solid gray;
+}
+
+/*  Diseño segunda seccion */
+.Titulo2 {
+    background-color: rgb(44, 153, 163);
+    text-align: center;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 105px;
+}
+
+.Titulo2-1{
+    font-size: 48px;
+    color: white;
+
+}
+
+.Titulo2-1 span{
+    font-weight: bold;
+}
+
+.Titulo2-2-1-0{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.Titulo2-2-1-1{
+    font-size:18px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: oblique;
+    Line-height: 30px
+}
+
+.Titulo2-1-1{
+    font-size:18px;
+    text-align:justify;
+    max-width: 700px;
+}
+
+.Titulo2-1-2{
+    font-size:19px;
+    text-align:justify;
+    max-width: 700px;
+    Line-height: 30px
+}
+
+/*  Diseño tercera seccion */
+.texto-imagen{
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.Texto-2do-bloque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+}
+
+.Texto-2do-bloque-1{
+    font-size: 28px;
+    background-color: rgb(54, 54, 54);
+    margin-bottom: 10px;
+    color: white;
+    max-width: 550px;
+    text-align: center;
+    border-radius: 10px;
+    align-items: flex-end;
+}
+
+.Texto-2do-bloque-2{
+    font-size: 18px;
+    max-width: 550px;
+    text-align: justify;
+    align-items: flex-end;
+    line-height: 2;
+}
+
+.Linea{
+    border-top: 1px solid black;
+    max-width: 70%;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+/*  Diseño cuarta seccion */
+.Leyenda1{
+    text-align: center;
+    color: rgb(33, 111, 177);
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Leyenda2{
+    text-align: center;
+    margin-bottom: 100px;
+    ;
+}
+
+.Bloques{
+    margin-bottom: 20px;
+    justify-content:center;
+}
+
+.Opciones{
+    margin: 0 auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.Bloque-A{
+    background-color: rgb(33, 111, 177);
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    Line-height: 30px;
+    padding: 20px;
+}
+
+.Bloque-A span{
+    font-weight: bold;
+}
+
+.Bloque-B{
+    background-color: rgb(33, 111, 177);
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    Line-height: 30px;
+    padding: 20px;
+}
+
+.Bloque-B span{
+    font-weight: bold;
+}
+
+.Bloque-C{
+    background-color: rgb(33, 111, 177);
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    Line-height: 30px;
+    padding: 20px;
+}
+
+
+.Bloque-C span{
+    font-weight: bold;
+}
+
+.Bloque-C-1{
+    padding: 20px;
+}
+
+.BotonLeer{
+    border-radius: 10px;
+    border-width: 0px;
+    padding: 5px;
+    color: rgb(33, 111, 177);
+    font-weight: bold;
+}
+
+/*  Diseño quinta seccion */
+.Contactos{
+    background-color: rgb(44, 153, 163);
+    text-align: center;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 105px;
+    color: white;
+}
+
+/* Diseño sexta seccion */
+.Contactos2{
+    background-image: url("./imagenes/Fondo1.png");
+    background-color: rgb(33, 111, 177);
+    margin: 0 auto;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    gap: 50px;
+    height: 200px;
+}
+
+.Logo{
+  display: flex;
+  margin-top: 100px;
+}
+.NumFono{
+    justify-content: center;
+    margin-top: 55px;
+    color:white;
+}
+.Iconos{
+    margin-top: 100px;
+    justify-content: center;
+}
+
+/* Diseño septima seccion */
+.Identificacion{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    height: 25px;
+}
