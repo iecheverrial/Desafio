@@ -27,10 +27,17 @@
     },
   };
 
- function verificarCantidadEmpleados(econtact = {}, cantidad) {
-    NumSedes = 0;
-
+  function verificarCantidadEmpleados(econtact ={},cantidad) {
+    let contador=0;
+    if (econtact.Chile.empleados<cantidad) {contador ++};
+     if (econtact.Peru.empleados<cantidad) {contador ++};
+         if (econtact.Ecuador.empleados<cantidad) {contador ++};
+             if (econtact.EEUU.empleados<cantidad) {contador ++};
+                 if (econtact.Colombia.empleados<cantidad) {contador ++};
     
- }
+    return `la cantidad de sedes con menos de ${cantidad} empleados es: ${contador}`;
 
- console.log(verificarCantidadEmpleados(objetoFijo.datos.sedes,100));
+};
+
+ 
+console.log(verificarCantidadEmpleados(objetoFijo.datos.sedes,35));
